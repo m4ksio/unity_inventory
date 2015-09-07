@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\resources\ContainerBase.cs">
+    <Files>
+      <File FileName="Assets\NewBehaviourScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\resources\ResourceDefinition.cs" Line="12" Column="37" />
+      <File FileName="Assets\resources\IActualSize.cs" Line="9" Column="2" />
+      <File FileName="Assets\resources\Resource.cs" Line="10" Column="19" />
+      <File FileName="Assets\resources\ResourceUnit.cs" Line="1" Column="1" />
+      <File FileName="Assets\resources\ResourceType.cs" Line="5" Column="2" />
+      <File FileName="Assets\resources\IStorage.cs" Line="8" Column="76" />
+      <File FileName="Assets\resources\ContainerBase.cs" Line="17" Column="32" />
+      <File FileName="Assets\resources\IPutTake.cs" Line="6" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
