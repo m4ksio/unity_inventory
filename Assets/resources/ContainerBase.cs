@@ -8,17 +8,28 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using System;
+using UnityEngine;
+
 namespace ResourceSystem
 {
-	public class ContainerBase : IPutTake, IActualSize, IStorage
-	{
-		double WeightLimit;
-		double OwnWeight;
-		double ContentWeight { get; }
+    public abstract class ContainerBase : MonoBehaviour, IPutTake, IActualSize, IStorage
+    {
+        private double WeightLimit;
+        private double OwnWeight;
+        public abstract double ContentWeight { get; }
 
-		public ContainerBase ()
-		{
-		}
-	}
+        public ContainerBase()
+        {
+
+        }
+
+        public abstract double Put(Resource resource, double amount);
+        public abstract double Take(Resource resource);
+        public double VolumeLimit { get; set; }
+        public double VolumeAvailable { get; set; }
+        public abstract bool CanPut(Resource resource, double amount, out double acceptedAmount);
+        public double Volume { get; set; }
+        public double Weight { get; set; }
+    }
 }
 

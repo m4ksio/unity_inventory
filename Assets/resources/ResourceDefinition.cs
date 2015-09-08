@@ -3,15 +3,16 @@ using UnityEngine;
 
 namespace ResourceSystem {
 
-public class ResourceDefinition {
+    [Serializable]
+public class ResourceDefinition : ScriptableObject {
 
-		public readonly int Id;
-		public readonly ResourceType Type;
-		public readonly bool Consumable;
-		public readonly Texture Icon;
-		public readonly ResourceUnit Unit;
-		public readonly double WeightPerUnit;
-		public readonly double VolumePerUnit;
+		public int Id;
+		public ResourceType Type;
+		public bool Consumable;
+		public Texture Icon;
+		public ResourceUnit Unit;
+		public double WeightPerUnit;
+		public double VolumePerUnit;
 
 		public ResourceDefinition ()
 		{
