@@ -1,2 +1,10 @@
 Temp/*
 *.cs.meta
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj

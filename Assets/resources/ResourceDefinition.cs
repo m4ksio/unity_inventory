@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ResourceSystem {
 
-    [Serializable]
+[Serializable]
 public class ResourceDefinition : ScriptableObject {
 
 		public int Id;
